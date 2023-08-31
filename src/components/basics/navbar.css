@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.restHead{
+    /* background-color: lightblue; */
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    background-color: white;
+    height: 50px;
+    width: 600px;
+    /* position: absolute;
+    top: 40px; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav>span{
+    text-transform: capitalize;
+}
